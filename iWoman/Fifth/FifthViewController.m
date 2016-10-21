@@ -56,8 +56,6 @@
 //    NSUInteger row = [indexPath row];
 	self.mChatRoomViewController = [[[ChatRoomViewController alloc] initWithNibName:@"ChatRoomViewController_iPhone" bundle:nil] autorelease];
     [self.navigationController pushViewController:mChatRoomViewController animated:YES];
-    
-	// get the element that is represented by the selected row.
 }
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *) tableView {
